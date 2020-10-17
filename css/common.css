@@ -1,0 +1,96 @@
+/* raleway-700 - latin_cyrillic */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/raleway/raleway-v18-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway/raleway-v18-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway/raleway-v18-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway/raleway-v18-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway/raleway-v18-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway/raleway-v18-latin_cyrillic-700.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+
+:root {
+    --color-primary:#757575;
+    --color-secondary:#212121;
+    --accent-color:#2196F3;
+    --white:#FFFFFF;
+    --bg-dark:#2F303A;
+    --bg-gray:#F5F4FA;
+
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--color-primary);
+
+}
+/* Классы для сброса дефолтных настроек */
+address {
+    font-style: normal;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Шапка сайта */
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    color: var(--color-secondary);
+}
+
+.spanlogo {
+    color: var(--accent-color);
+}
+
+.nav-link,
+.contacts-link {
+    font-weight: 500;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+}
+.nav-link {
+    color: var(--color-secondary);
+}
+
+.contacts-link {
+    color: var(--color-primary);
+}
+.nav-link:hover,
+.nav-link:focus, 
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+.nav-menu .current {
+    color: var(--accent-color);
+}
+
+/* Футер */
+.footer {
+    background-color: var(--bg-dark);
+}
+.logo-white,
+.map {
+    color: var(--white);
+}
+
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
+}

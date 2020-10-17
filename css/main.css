@@ -1,0 +1,57 @@
+/* Герой */
+
+.hero {
+    background-color:var(--bg-dark);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    align-items: center; 
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+/* Основной контент */
+.features-title,
+.section-title {
+    font-weight: 700;
+    color: var(--color-secondary);
+}
+
+.features-title {
+    line-height: 1.143;
+    text-transform: uppercase;
+}
+.section-title {
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+}
+
+.name,
+.position {
+    font-size: 16px;
+    line-height: 1.187;
+}
+
+.name{
+    font-weight: 500;
+    color: var(--color-secondary);
+}
+
+.position{
+    color: var(--color-primary);
+}
